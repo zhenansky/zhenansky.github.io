@@ -3233,12 +3233,12 @@ img.u-pull-left {
 }
 
 .intro-social a {
-    color : var(--color-text-light);
+    color : white;
 }
 
 .intro-social a:focus,
 .intro-social a:hover {
-    color : white;
+    color : yellow;
 }
 
 /* --------------------------------------------------------------------
@@ -4029,6 +4029,39 @@ img.u-pull-left {
     }
 }
 
+
+/* ===================================================================
+ * # CERTIFICATES
+ *
+ *
+ * ------------------------------------------------------------------- */
+
+ .s-certificate {
+     padding-top: var(--vspace-4);
+     padding-bottom: var(--vspace-3);
+ }
+
+ .certificates-gallery-vertical {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 40px;
+     margin-top: 40px;
+ }
+
+ .certificates-gallery-vertical img {
+     max-width: 80%;
+     height: auto;
+     border: 3px solid #ddd;
+     border-radius: 10px;
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+     transition: transform 0.3s ease;
+ }
+
+ .certificates-gallery-vertical img:hover {
+     transform: scale(1.03);
+     border-color: #888;
+ }
 
 
 /* ===================================================================
